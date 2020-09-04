@@ -62,6 +62,8 @@ class Criteria extends Component {
         }
     }
 
+    
+
     gotoSportLocation = () => {
         this.props.setProvinsiChoosen(this.state.selectedProvinsi),
             this.props.setKotaChoosen(this.state.selectedKota),
